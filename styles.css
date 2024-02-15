@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #1a1a1a; /* Dark background */
+    color: #ccc; /* Light text color */
 }
 
 .container {
@@ -18,19 +19,19 @@ header {
 
 header h1 {
     font-size: 36px;
-    color: #333;
+    color: #fff; /* White header text */
 }
 
 header p {
     font-size: 18px;
-    color: #666;
+    color: #999; /* Lighter text color */
 }
 
 main {
-    background-color: #fff;
+    background-color: #333; /* Darker content background */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow */
 }
 
 section {
@@ -39,22 +40,22 @@ section {
 
 section h2 {
     font-size: 24px;
-    color: #333;
+    color: #fff; /* White section header text */
 }
 
 section p {
     font-size: 16px;
-    color: #666;
+    color: #999; /* Lighter text color */
 }
 
 footer {
     text-align: center;
     margin-top: 30px;
     padding-top: 10px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #666; /* Darker border */
 }
 
 footer p {
     font-size: 14px;
-    color: #999;
+    color: #666; /* Darker footer text color */
 }
